@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 13
 #define MATRIX_ROW_PINS         \
     {                           \
-        B18, B19, B20, B21, B22   \
+        B18, B19, B20, B21, B23   \
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
