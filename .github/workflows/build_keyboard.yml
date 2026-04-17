@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Fetch all
         run: git fetch
@@ -55,13 +55,13 @@ jobs:
         run: echo "git_ver=$(git describe --always --dirty)" >> $GITHUB_ENV
 
       - name: UF2 Firmware (${{inputs.keyboard}})
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{inputs.keyboard}}.uf2
           path: ${{inputs.keyboard}}_upgrade_${{ env.git_ver }}.uf2
 
       - name: Hex Firmware (${{inputs.keyboard}})
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{inputs.keyboard}}.hex
           path: ${{inputs.keyboard}}_factory_${{ env.git_ver }}.hex
