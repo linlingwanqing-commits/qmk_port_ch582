@@ -1,7 +1,8 @@
 {
-  "name": "mk67lite",
-  "vendorId": "0xCAFE",
-  "productId": "0x0B93",
+  "name": "planck59",
+  "vendorId": "0x4743",
+  "productId": "0x5942",
+
   "customKeycodes": [
     {
       "name": "USB",
