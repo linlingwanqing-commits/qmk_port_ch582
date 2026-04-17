@@ -57,7 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODER_RESOLUTION 4
 #endif
 
-#define WS2812_EN_PIN   B5
+#define WS2812_EN_PIN   B3
 #define WS2812_EN_LEVEL 1
 
 #ifdef RGB_MATRIX_ENABLE
