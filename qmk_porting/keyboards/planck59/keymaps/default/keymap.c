@@ -18,31 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 #include "extra_keycode.h"
 
-enum unicode_names {
-    la = NEW_SAFE_RANGE,
-    lA,
-    rc,
-    rC,
-    rv,
-    rV,
-    rb,
-    rB,
-    rn,
-    rN
-};
 
-const uint32_t PROGMEM unicode_map[] = {
-    [la] = 0x03B1, // α
-    [lA] = 0x0307, //
-    [rc] = 0x2284, // ⊄
-    [rC] = 0x2286, // ⊆
-    [rv] = 0x2285, // ⊅
-    [rV] = 0x2287, //⊇
-    [rb] = 0x2227, // ∧
-    [rB] = 0x22BC, //⊼
-    [rn] = 0x2228, //∨
-    [rN] = 0x22BB  //⊻
-};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_all(/* 0: qwerty */
