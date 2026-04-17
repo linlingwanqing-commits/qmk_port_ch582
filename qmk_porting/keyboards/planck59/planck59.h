@@ -1,6 +1,5 @@
 /*
-Copyright 2022 Huckies <https://github.com/Huckies>
-Copyright 2023 OctopusZ <https://github.com/OctopusZ>
+Copyright 2022 OctopusZ <https://github.com/OctopusZ>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -22,7 +21,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "extra_keycode.h"
 
 // clang-format off
-
 #define LAYOUT_all( \
     K000, K001, K002, K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, \
     K100, K101, K102, K103, K104, K105, K106, K107, K108, K109, K110, K111, K112, \
@@ -38,3 +36,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     { K400, K401, K402, K403, K404, K405,       K407, K408, K409, K410, K411, K412 }  \
 }
 
+// clang-format on

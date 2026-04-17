@@ -1,8 +1,7 @@
 {
-  "name": "planck59",
-  "vendorId": "0x4743",
-  "productId": "0x5942",
-
+  "name": "mk67lite",
+  "vendorId": "0xCAFE",
+  "productId": "0x0B93",
   "customKeycodes": [
     {
       "name": "USB",
@@ -107,9 +106,9 @@
   ],
   "matrix": {
     "rows": 5,
-    "cols": 13
+    "cols": 15
   },
-  "layouts": {
+   "layouts": {
     "keymap": [
       [
         "0,0", "0,1", "0,2", "0,3", "0,4", "0,5", "0,6", "0,7", "0,8", "0,9", "0,10", "0,11", "0,12"

@@ -1,6 +1,5 @@
 /*
-Copyright 2022 Huckies <https://github.com/Huckies>
-Copyright 2023 OctopusZ <https://github.com/OctopusZ>
+Copyright 2022 OctopusZ <https://github.com/OctopusZ>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -25,41 +24,31 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER gcjj
 #define PRODUCT      planck59
 
-/* 矩阵配置 */
-/* 矩阵配置 */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 13
-#define MATRIX_ROW_PINS \
-    { \
-        A2, A3, A4, A5, A6 \
+#define MATRIX_ROW_PINS      \
+    {                        \
+        B9, A7, B8, B16, B18 \
     }
-#define MATRIX_COL_PINS \
-    { \
-        B0, B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11, B12 \
+#define MATRIX_COL_PINS                                              \
+    {                                                                \
+        A4, A5, A6, A0, A1, A3, B7, B5, B4, B3, B2, B1, B0 \
     }
+// #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
 #define DIODE_DIRECTION  COL2ROW
-#define BOOTMAGIC_ROW    3
-#define BOOTMAGIC_COLUMN 7
+#define BOOTMAGIC_ROW    0
+#define BOOTMAGIC_COLUMN 0
+// #define PERMISSIVE_HOLD
 #define HOLD_ON_OTHER_KEY_PRESS
-
 
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP FALSE
 
-#ifdef ENCODER_ENABLE
-#define ENCODER_A_PINS \
-    {                  \
-        B5             \
-    }
-#define ENCODER_B_PINS \
-    {                  \
-        B6             \
-    }
-#define ENCODER_RESOLUTION 4
-#endif
-
-#define WS2812_EN_PIN   B3
+#define WS2812_EN_PIN   B6
 #define WS2812_EN_LEVEL 1
+
+#define BATTERY_MEASURE_PIN A2
+// #define POWER_DETECT_PIN    B12
 
 #ifdef RGB_MATRIX_ENABLE
 // #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_REACTIVE
@@ -153,8 +142,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define NO_ACTION_LAYER
 // #define NO_ACTION_TAPPING
 // #define NO_ACTION_ONESHOT
-
-/* define for OLED resolution  */
-#ifdef OLED_ENABLE
-#define OLED_DISPLAY_128X64
-#endif

@@ -1,6 +1,5 @@
 /*
 Copyright 2022 Huckies <https://github.com/Huckies>
-Copyright 2023 OctopusZ <https://github.com/OctopusZ>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -22,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBUG_BAUDRATE       460800
 #define DCDC_ENABLE          1
 #define FREQ_SYS             40000000
-#define LSE_ENABLE           0
+#define LSE_ENABLE           1
 #define BLE_SLOT_NUM         4
 #define HSE_LOAD_CAPACITANCE 20 // in pF unit
 #define LSE_LOAD_CAPACITANCE 19 // in pF unit

@@ -1,6 +1,5 @@
 /*
 Copyright 2022 Huckies <https://github.com/Huckies>
-Copyright 2023 OctopusZ <https://github.com/OctopusZ>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define UART3_IO_REMAPPING
 
 /* I2C_IO_REMAPPING    -  I2C: PB13/PB12 -> PB21/PB20 */
-//#define I2C_IO_REMAPPING
+// #define I2C_IO_REMAPPING
 
 /* SPI_IO_REMAPPING   -  SPI0:  PA12/PA13/PA14/PA15 -> PB12/PB13/PB14/PB15 */
 // #define SPI_IO_REMAPPING
@@ -43,17 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define BLE_TX_POWER LL_TX_POWEER_0_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_1_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_2_DBM
-// #define BLE_TX_POWER LL_TX_POWEER_3_DBM
+#define BLE_TX_POWER LL_TX_POWEER_3_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_4_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_5_DBM
 // #define BLE_TX_POWER LL_TX_POWEER_6_DBM
-#pragma once
-
-// #define DEBUG                Debug_UART1
-#define DEBUG_BAUDRATE       460800
-#define DCDC_ENABLE          1
-#define FREQ_SYS             40000000
-#define LSE_ENABLE           1
-#define BLE_SLOT_NUM         4
-#define HSE_LOAD_CAPACITANCE 20 // in pF unit
-#define LSE_LOAD_CAPACITANCE 19 // in pF unit
