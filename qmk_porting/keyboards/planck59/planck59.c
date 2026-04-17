@@ -20,6 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef RGB_MATRIX_ENABLE
 
 /* clang-format off */
+led_config_t g_led_config = {
 // 第1层：LED 矩阵位置（对应 5行 x 13列）
     {
         // 第0行（数字行）：13个 LED
