@@ -30,11 +30,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 13
 #define MATRIX_ROW_PINS         \
     {                           \
-        A7, A11, A13, A15, A2   \
+        B18, B19, B20, B21, B22   \
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-        B17, B9, A8, A10, A12, A14, A3, A1, A6, A4, B16, B8, A9 \
+        B17, A8, A10, A12, A14, A3, A1, A6, A4, B16, A9, A7, A11 \
     }
 
 #define DIODE_DIRECTION  COL2ROW
