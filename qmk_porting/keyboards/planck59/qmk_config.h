@@ -28,11 +28,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 13
 #define MATRIX_ROW_PINS      \
     {                        \
-        B9, A7, B8, B16, B18 \
+        B5, A12, B7, A10, B11 \
     }
 #define MATRIX_COL_PINS                                              \
     {                                                                \
-        A4, A5, A6, A0, A1, A3, B7, B5, B4, B3, B2, B1, B0 \
+        A4, B18, A6, B20, A1, B22, A3, B1, A14, B9, B13, B17, B15 \
     }
 // #define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
